@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170DB59526948560001F98B1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DB59426948560001F98B1 /* Networking.swift */; };
+		170DB59726948BEC001F98B1 /* CatApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DB59626948BEC001F98B1 /* CatApiService.swift */; };
+		170DB59926948F96001F98B1 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DB59826948F96001F98B1 /* CatViewModel.swift */; };
+		17ABB68B2698DE320020C47B /* ListOfCat.json in Resources */ = {isa = PBXBuildFile; fileRef = 17ABB68A2698DE320020C47B /* ListOfCat.json */; };
 		17D718E326925FC100430A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D718E226925FC100430A43 /* AppDelegate.swift */; };
 		17D718E526925FC100430A43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D718E426925FC100430A43 /* SceneDelegate.swift */; };
 		17D718E726925FC100430A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D718E626925FC100430A43 /* ViewController.swift */; };
@@ -16,6 +20,9 @@
 		17D718F226925FC400430A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D718F026925FC400430A43 /* LaunchScreen.storyboard */; };
 		17D718FD26925FC400430A43 /* BackDrop_Test_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D718FC26925FC400430A43 /* BackDrop_Test_AppTests.swift */; };
 		17D7190826925FC400430A43 /* BackDrop_Test_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D7190726925FC400430A43 /* BackDrop_Test_AppUITests.swift */; };
+		17D7191C26934A6F00430A43 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D7191B26934A6E00430A43 /* Constant.swift */; };
+		17D7191E269359C200430A43 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D7191D269359C200430A43 /* CatModel.swift */; };
+		17D719212693F20600430A43 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D719202693F20600430A43 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170DB59426948560001F98B1 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		170DB59626948BEC001F98B1 /* CatApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatApiService.swift; sourceTree = "<group>"; };
+		170DB59826948F96001F98B1 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
+		17ABB68A2698DE320020C47B /* ListOfCat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ListOfCat.json; path = asset/ListOfCat.json; sourceTree = "<group>"; };
 		17D718DF26925FC100430A43 /* BackDrop Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackDrop Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D718E226925FC100430A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17D718E426925FC100430A43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,9 @@
 		17D7190326925FC400430A43 /* BackDrop Test AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackDrop Test AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D7190726925FC400430A43 /* BackDrop_Test_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackDrop_Test_AppUITests.swift; sourceTree = "<group>"; };
 		17D7190926925FC400430A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D7191B26934A6E00430A43 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		17D7191D269359C200430A43 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		17D719202693F20600430A43 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17ABB6872698DDC80020C47B /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				17ABB68A2698DE320020C47B /* ListOfCat.json */,
+			);
+			name = asset;
+			sourceTree = "<group>";
+		};
 		17D718D626925FC000430A43 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +123,16 @@
 		17D718E126925FC100430A43 /* BackDrop Test App */ = {
 			isa = PBXGroup;
 			children = (
+				17ABB6872698DDC80020C47B /* asset */,
+				17D7191A26934A5700430A43 /* constant */,
+				17D719192692616D00430A43 /* viewController */,
+				17D719182692606800430A43 /* view */,
+				17D719172692605D00430A43 /* viewModel */,
+				17D719162692605300430A43 /* model */,
+				17D719152692604700430A43 /* service */,
 				17D718E226925FC100430A43 /* AppDelegate.swift */,
 				17D718E426925FC100430A43 /* SceneDelegate.swift */,
-				17D718E626925FC100430A43 /* ViewController.swift */,
-				17D718E826925FC100430A43 /* Main.storyboard */,
 				17D718EE26925FC400430A43 /* Assets.xcassets */,
-				17D718F026925FC400430A43 /* LaunchScreen.storyboard */,
 				17D718F326925FC400430A43 /* Info.plist */,
 				17D718EB26925FC100430A43 /* BackDrop_Test_App.xcdatamodeld */,
 			);
@@ -129,6 +155,65 @@
 				17D7190926925FC400430A43 /* Info.plist */,
 			);
 			path = "BackDrop Test AppUITests";
+			sourceTree = "<group>";
+		};
+		17D719152692604700430A43 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				170DB59626948BEC001F98B1 /* CatApiService.swift */,
+				170DB59426948560001F98B1 /* Networking.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		17D719162692605300430A43 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				17D7191D269359C200430A43 /* CatModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		17D719172692605D00430A43 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				170DB59826948F96001F98B1 /* CatViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		17D719182692606800430A43 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				17D718E826925FC100430A43 /* Main.storyboard */,
+				17D718F026925FC400430A43 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		17D719192692616D00430A43 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				17D7191F2693F1D800430A43 /* cells */,
+				17D718E626925FC100430A43 /* ViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		17D7191A26934A5700430A43 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				17D7191B26934A6E00430A43 /* Constant.swift */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		17D7191F2693F1D800430A43 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				17D719202693F20600430A43 /* TableViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +322,7 @@
 				17D718F226925FC400430A43 /* LaunchScreen.storyboard in Resources */,
 				17D718EF26925FC400430A43 /* Assets.xcassets in Resources */,
 				17D718EA26925FC100430A43 /* Main.storyboard in Resources */,
+				17ABB68B2698DE320020C47B /* ListOfCat.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D7191E269359C200430A43 /* CatModel.swift in Sources */,
 				17D718E726925FC100430A43 /* ViewController.swift in Sources */,
 				17D718E326925FC100430A43 /* AppDelegate.swift in Sources */,
+				170DB59926948F96001F98B1 /* CatViewModel.swift in Sources */,
+				170DB59726948BEC001F98B1 /* CatApiService.swift in Sources */,
+				170DB59526948560001F98B1 /* Networking.swift in Sources */,
+				17D7191C26934A6F00430A43 /* Constant.swift in Sources */,
 				17D718E526925FC100430A43 /* SceneDelegate.swift in Sources */,
+				17D719212693F20600430A43 /* TableViewCell.swift in Sources */,
 				17D718ED26925FC100430A43 /* BackDrop_Test_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
