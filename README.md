@@ -1,0 +1,1 @@
+# BackdropTest uses MVVM approach
